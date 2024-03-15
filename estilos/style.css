@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Mobile first
+    paletas de cores 
+    verde: #49a09d
+    lilas: #5f2c82
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1 : #5f2c82;
+    --cor2 : #49a09d;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor1);
+}

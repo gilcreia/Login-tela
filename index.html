@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem">
+                <img src="imagens/predio.jpg" alt="predio">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <!-- Formulario de cadastro-->
+                <form action="login.php" method="post">
+
+                    <div class="connexion">
+                        <label for="iutil"><span class="material-symbols-outlined">person</span></label>
+                        <input type="text" name="util" id="iutil">
+                    </div>
+                    <div class="connexion">
+                        <label for="ipass"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="pass" id="ipass">
+                    </div>
+                    <div id="entrar">
+                        <input type="submit" value="Entrar" class="entrar">
+                    </div>
+                    <a href="#">Esqueci a senha</a>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
