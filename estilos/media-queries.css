@@ -3,6 +3,7 @@
 @media only screen and (min-width: 768px) {
     body {
         background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+        background-size: cover;
     }
     #imagem {
         float: left;
