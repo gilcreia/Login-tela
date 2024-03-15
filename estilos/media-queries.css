@@ -5,6 +5,10 @@
         background-image: linear-gradient(to top, var(--cor2), var(--cor1));
         background-size: cover;
     }
+
+    #login {
+        height: 300px;
+    }
     #imagem {
         float: left;
         width: 30%;
@@ -21,6 +25,7 @@
 @media only screen and (min-width: 992px) {
     #login {
         width: 950px;
+        height: 335px;
     }
     #imagem {
         float: right;
